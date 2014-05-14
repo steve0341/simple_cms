@@ -1,0 +1,18 @@
+<h1>Demo#hello</h1>
+<p>Hello view</p>
+
+<% 1 + 1 %>
+<br />
+
+<% site = 'http://www.lynda.com' %>
+<% pets = %w(dog cat mice tiger) %>
+<% pets.each do |pet| %>
+<%=	"#{pet} is a pet" %>
+<br />
+<% end %>
+
+<% 3.times do %>
+<br />
+<p> "Hello" </p>
+<% end %>
+Click here to go to <a href="<%= "#{site}" %>">lynda.com</a>
